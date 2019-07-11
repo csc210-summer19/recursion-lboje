@@ -72,11 +72,11 @@ public class RecursionFun {
 		if (index >= len / 2) {
 			return;
 		}
+
 		int temp = x[index];
 		x[index] = x[len - index - 1];
 		x[len - index - 1] = temp;
 		reverseArray(x, index + 1, len);
-
 	}
 
 	// Write recursive method arrayRange that returns the maximum
