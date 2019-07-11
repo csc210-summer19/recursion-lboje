@@ -9,7 +9,7 @@
  *   void removeAll(E)
  *   void duplicateAll(E) 
  * 
- * @author Rick Mercer and Your Name
+ * @author Rick Mercer and Lucas Boje
  */
 public class LinkedList<E extends Comparable<E>> {
   // extends Comparable<E> means the type must be comparable to avoid CT errors
